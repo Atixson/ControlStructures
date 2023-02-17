@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
 //#define SQUARE
@@ -12,13 +12,13 @@ using namespace std;
 #define PLUS_MINUS
 
 //#define CHESS_BOARD
-//#define HARD_CHESS - не сделал
+//#define HARD_CHESS - РЅРµ СЃРґРµР»Р°Р»
 
 void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Введите значение: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ: "; cin >> n;
 
 #ifdef SQUARE
 	for (int i = 0; i < n; i++)
@@ -257,7 +257,7 @@ void main()
 	}
 
 
-#endif // HARD_CHESS - Не сделал
+#endif // HARD_CHESS - РќРµ СЃРґРµР»Р°Р»
 
 #ifdef PLUS_MINUS
 	for (int i = 0; i < n; i++)
