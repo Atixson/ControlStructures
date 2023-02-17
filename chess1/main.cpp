@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 #define UPPER_LEFT_ANGLE  (char)218
 #define UPPER_RIGHT_ANGLE (char)191
@@ -21,7 +21,7 @@ void main()
 
 	}*/
 	int n;
-	cout << "Ââåäèòå çíà÷åíèå: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
